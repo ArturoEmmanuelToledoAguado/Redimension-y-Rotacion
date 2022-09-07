@@ -27,10 +27,25 @@ if (f<fr) || (c<cr)
     figure()
     imshow(imgSum)
     title('Suma de Original y rotada 5°')
+
+    %Uso de imfuse
+    imgFus=imfuse(imgr,imgRot,'blend');
+    figure()
+    imshow(imgFus)
+    title('Uso de imfuse')
 else
     imgr=imresize(img,[f c/3]);
     imgSum=imadd(imgr,imgRot);
     figure()
     imshow(imgSum)
     title('Suma de Original y rotada 5°')
+
+    %Uso de imfuse
+    imgFus=imfuse(imgr,imgRot,'blend');
+    figure()
+    imshow(imgFus)
+    title('Uso de imfuse')
 end
+
+%imfuse = Composición de dos imágenes
+%blend = Superpone A y B con composición alfa.
