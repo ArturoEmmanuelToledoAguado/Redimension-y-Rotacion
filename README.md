@@ -1,5 +1,5 @@
 # Introducción
-Se propone usar la función imfuse de matlab para sumar una imágen consigo misma rotada un grado, después a ese resultado sumarle la imágen original rotada dos grados, y así sucesivamente hasta 5 grados, pero antes es necesario saber:
+Se propone usar la función imrotate de matlab para rotar una imágen 5 grados, pero antes es necesario saber:
 
 ## ¿Qué es el procesamiento digital de imagenes (PDI)?
 PDI se puede definir como el conjunto de procesamientos que se realizan sobre una imagen digital ya sea para realizar su almacenamiento, transmisión o tratamiento.
