@@ -38,4 +38,4 @@ Para guardar el contenido de una imagen la cual ha sido modificada o creada en m
 
 En donde 'variable' representa la variable que contiene a la imágen, 'nombre del archivo', el nombre con el que se desea guardar seguido de un punto se indica el tipo de formato deseado
 
-<a href="https://github.com/ArturoEmmanuelToledoAguado/Suma-de-Imagenes">Código</a>
+<a href="https://github.com/ArturoEmmanuelToledoAguado/Uso-de-imfuse">Código</a>
