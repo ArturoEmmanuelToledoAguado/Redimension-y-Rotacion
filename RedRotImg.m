@@ -21,7 +21,7 @@ imshow(imgRot)
 title('Imagen Rotada 5°')
 
 %Comparamos
-if (f<fr) || (c<cr)
+if (f<fr) || (c<cr/3)
     imgr=imresize(img,[fr cr/3]);
     imgSum=imadd(imgr,imgRot);
     figure()
